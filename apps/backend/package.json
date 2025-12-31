@@ -1,0 +1,23 @@
+{
+  "name": "locus-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch server.ts",
+    "start": "bun server.ts",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:push": "prisma db push",
+    "db:studio": "prisma studio"
+  },
+  "dependencies": {
+    "hono": "^4.0.0",
+    "@prisma/client": "^5.22.0",
+    "zod": "^3.22.0",
+    "@hono/zod-validator": "^0.2.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.22.0",
+    "@types/bun": "latest"
+  }
+}
