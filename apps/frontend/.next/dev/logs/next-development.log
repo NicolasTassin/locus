@@ -1,3 +1,924 @@
-[00:00:08.354] Server  LOG     ✓ Ready in 8s
-[00:04:28.550] Server  LOG     ○ Compiling / ...
-[00:04:35.707] Browser WARN    Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:01.378] Server  LOG     ✓ Ready in 1046ms
+[00:00:34.537] Server  ERROR   ⨯ ReferenceError: zipCode is not defined
+[00:00:35.626] Browser ERROR   uncaughtError: ReferenceError: zipCode is not defined
+[00:00:53.121] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:00:53.146] Server  LOG     ✓ Compiled in 179ms
+[00:01:09.818] Server  LOG     ✓ Compiled in 112ms
+[00:01:10.711] Browser ERROR   uncaughtError: ReferenceError: handleZipCodeSubmit is not defined
+[00:01:20.521] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:01:20.563] Server  LOG     ✓ Compiled in 54ms
+[00:01:20.955] Server  ERROR   ⨯ ReferenceError: handleZipCodeSubmit is not defined
+[00:01:20.987] Browser ERROR   uncaughtError: ReferenceError: handleZipCodeSubmit is not defined
+[00:01:22.712] Browser ERROR   uncaughtError: ReferenceError: handleZipCodeSubmit is not defined
+[00:01:37.370] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:01:37.372] Server  LOG     ✓ Compiled in 93ms
+[00:01:37.715] Server  ERROR   ⨯ ReferenceError: selectedZipCode is not defined
+[00:01:38.710] Browser ERROR   uncaughtError: ReferenceError: selectedZipCode is not defined
+[00:01:45.698] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:01:45.722] Server  LOG     ✓ Compiled in 122ms
+[00:01:59.274] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.277] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.300] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.304] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.306] Server  LOG     ✓ Compiled in 399ms
+[00:01:59.314] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.316] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.317] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.317] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.319] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.320] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.321] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.322] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.324] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.324] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.326] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.327] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.332] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.333] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.334] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.335] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.337] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.342] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.343] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.344] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.346] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.347] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.348] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.348] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.349] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.350] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.351] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.352] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.363] Server  ERROR   ⨯ ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:59.711] Browser ERROR   ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:01.089] Server  LOG     ✓ Compiled in 1687ms
+[00:02:02.566] Browser ERROR   uncaughtError: Error: ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:03.710] Browser ERROR   ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:03.710] Browser ERROR   ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:14.722] Browser ERROR   ./Code/Projects/locus/apps/frontend/app/page.tsx:5:1
+Module not found: Can't resolve './components/ZipCodeInput'
+  3 | import { useState } from 'react';
+  4 | import dynamic from 'next/dynamic';
+> 5 | import ZipCodeInput from './components/ZipCodeInput';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | // Import Map dynamically to avoid SSR issues with Leaflet
+  8 | const Map = dynamic(() => import('./components/Map'), {
+
+Import traces:
+  Client Component Browser:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component Browser]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Client Component SSR]
+    ./Code/Projects/locus/apps/frontend/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:22.064] Server  LOG     ✓ Compiled in 53ms
+[00:02:22.444] Server  ERROR   ⨯ ReferenceError: ZipCodeInput is not defined
+[00:02:23.713] Browser ERROR   uncaughtError: ReferenceError: ZipCodeInput is not defined
+[00:02:32.069] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:02:32.078] Server  LOG     ✓ Compiled in 545ms
+[00:04:22.317] Server  LOG     ✓ Compiled in 184ms
+[00:04:39.981] Browser LOG     Geocoding address: 1060
+[00:05:24.042] Browser LOG     Geocoding address: 1060
